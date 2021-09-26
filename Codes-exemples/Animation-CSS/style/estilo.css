@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+#animation {
+    background-image: url(/imagem/ciclo-animacao.png);
+    width: 175px;
+    height: 89px;
+    -webkit-animation: ciclo-animacao 1.0s steps(8) infinite;
+    animation: ciclo-animacao 1.0s steps(8) infinite;
+}
+
+@-webkit-keyframes ciclo-animacao {
+    from { background-position: 0px; }
+    to { background-position: -464px; }
+}
+
+@Keyframes ciclo-animaca {
+    from { background-position: 0px; }
+    to { background-position: -464px; }
+}
